@@ -2,6 +2,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
+import Mobile from "@/Components/Mobile";
+import SocialMedia from "@/Components/SocialMedia";
 import Head from "next/head";
 import Image from "next/image";
 import profile from "../../public/images/pro1.jpeg";
@@ -37,7 +39,9 @@ export default function Home() {
               🔨🎨 I enjoy solving complex problems and craft astonishing apps.
             </p>
           </div>
+          <SocialMedia />
         </section>
+        <Mobile />
         <Footer />
       </div>
     </>

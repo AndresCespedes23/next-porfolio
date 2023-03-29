@@ -1,0 +1,20 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background: #D4AF37;
+    bottom: 0;
+    width: 100%;
+}
+.navLinks {
+    margin: 2rem 1.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+}
+@media only screen and (min-width: 992px) {
+    .navbar {
+        display: none;
+    }
+}

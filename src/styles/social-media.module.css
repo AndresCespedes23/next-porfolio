@@ -1,0 +1,33 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0rem 1rem 6rem 1rem;
+}
+.contactIcons {
+    margin: 1rem 1rem;
+}
+.icons {
+    padding: 0.1rem;
+    border-radius: 9999px;
+    background: #FFF;
+    height: 64px;
+    width: 64px;
+}
+.icons:hover {
+    opacity: .7;
+}
+
+@media only screen and (min-width: 992px) {
+    .contact {
+        flex-direction: row;
+    }
+    .contactIcons {
+        margin: 0rem 2rem;
+    }
+    .icons {
+        height: 80px;
+        width: 80px;
+    }
+}
