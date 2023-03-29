@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../public/images/svg/1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    color: #FFFFFF;
+}
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 5%;
+    -webkit-text-stroke: 1px #000000;
+}
+.homeTitles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homeTitle, .homeSubtitle{
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.profile {
+    height: 256px;
+    width: 256px;
+    border: 5px solid #D4AF37;
+    border-radius: 70%;
+}
+.emoji {
+    font-size: 2.5rem;
+}
+.presentation p {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+@media only screen and (min-width: 992px) {
+    .presentation {
+        margin: 3rem;
+    }
+    .homeTitle, .homeSubtitle{
+        margin: 0.5rem;
+        font-size: 3.5rem;
+    }
+      .presentation p {
+        margin: 0rem 2rem;
+        font-size: 3rem;
+    }
+        .contact {
+            padding: 2rem;
+        }
+    }

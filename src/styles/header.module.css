@@ -1,0 +1,29 @@
+.header {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D4AF37;
+    width: 100%;
+    z-index: 1;
+}
+.rocket {
+    margin: 1rem;
+    font-size: 3rem;
+}
+.navLinks {
+    margin: 0vw 3vw 0vw 3vw;
+    font-size: 2rem;
+    color: #000000;
+    text-decoration: none;
+}
+.navLinks:hover {
+    color: #FFF;
+}
+@media only screen and (min-width: 992px) {
+    .header {
+        display: flex;
+    }
+    .logo {
+        height: 64px;
+    }
+}
