@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap');
+
+.accordion {
+    padding: 2rem;
+    color: #000;
+}
+.accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #D4AF37;
+    cursor: pointer;
+    border:0;
+    border-radius: 9999px;
+  }
+  .accordionHeader:hover {
+    background-color: #FFE55C;
+  }
+  .accordionTitle {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  .projectLogo {
+    height: 5rem;
+    border:0;
+    border-radius: 9999px;
+  }
+  .accordionImage {
+    height: 6rem;
+    border: 1px solid black;
+    border-radius: 1%;
+  }
+  .accordionIndicator {
+    font-size: 3rem;
+  }
+  .techTitle {
+    padding: 1rem 0rem;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .tech {
+    padding: 2rem 0rem;
+  }
+  .techImg {
+    height: 4rem;
+  }
+  .projectDescription {
+    padding: 2rem 0rem;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .accordionBody {
+    margin: 0rem 1.5rem;
+    text-align: left;
+    font-size: 1.7rem;
+    padding: 1rem;
+    background:  #a88b2b;
+    border-bottom:0;
+    border-radius: 1%;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+.projectsLinks {
+  margin: 2rem 1rem;
+  cursor: pointer;
+  height: 64px;
+  width: 64px;
+}
+.projectsLinks:hover {
+  opacity: .7;
+}
+
+@media only screen and (min-width: 992px) {
+    .accordionTitle {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .btns {
+        justify-content: space-evenly;
+        flex-direction: row;
+      }
+      .accordionImage {
+        height: 25rem;
+      }
+      .projectsLinks {
+        margin: 2rem 1rem;
+        cursor: pointer;
+        height: 64px;
+        width: 64px;
+      }
+}
