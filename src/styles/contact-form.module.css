@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap');
+
+.contactMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+    color: #000;
+}
+.title {
+    padding: 1rem;
+    font-size: 2em;
+    background: #D4AF37;
+    border-radius: 9999px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.inputTitle {
+    padding-left: 2vw;
+}
+.input {
+    padding: 1rem 6rem 1rem 0.5rem;
+    border: 3px solid #D4AF37 ;
+}
+.textarea {
+    padding: 1rem 5rem 0rem 0.5rem;
+    resize: none;
+    border: 3px solid #D4AF37 ;
+}
+.input, .textarea {
+    border-radius: 9999px;
+    outline: 0;
+}
+.sendBtn {
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 75%;
+    border-radius: 5%;
+    background: #d4af37ea;
+    color: #000;
+    font-family: 'Maiden Orange', sans-serif;
+    font-size: 2rem;
+    border-radius: 9999px;
+    border: 0;
+    cursor: pointer;
+}
+.sendBtn:hover {
+    opacity: .7;
+}
+
+@media only screen and (min-width: 992px) {
+   .title {
+        font-size: 5rem;
+   }
+   .input {
+    padding: 1rem 17rem 1rem 0.5rem;
+   }
+   .textarea {
+    padding: 1rem 16rem 1rem 0.5rem;
+   }
+   .sendBtn {
+    font-size: 2rem;
+    width: 50%;
+   }
+  }
