@@ -1,5 +1,5 @@
-import share from "../../../public/images/icons/share.png";
-import github from "../../../public/images/icons/github.png";
+import linkedin from "../../../public/images/icons/linkedin.png";
+import github from "../../../public/images/icons/github-white.png";
 import Image from "next/image";
 import styles from "../../styles/social-media.module.css";
 
@@ -21,7 +21,7 @@ export default function SocialMedia() {
           target="_blank"
           rel="noreferrer"
         >
-          <Image className={styles.icons} src={share} alt="share" />
+          <Image className={styles.icons} src={linkedin} alt="share" />
         </a>
       </div>
     </div>
