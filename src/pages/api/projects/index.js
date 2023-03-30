@@ -14,7 +14,7 @@ const projects = [
         url: "https://i.imgur.com/1AC0Maq.png",
       },
     ],
-    body: "This is a twitter-clone oriented to the healthcare system. You can do basic functions like: login with yout Google Account, see the timeline, post a tweet, post a tweet with an image (for the moment, you can only drag one image per tweet). ",
+    body: "This is a twitter-clone oriented to the healthcare system. You can do basic functions like: login with your Google Account, see the timeline, post a tweet, post a tweet with an image (for the moment, you can only drag one image per tweet). ",
     sourceCode: "https://github.com/AndresCespedes23/salute",
     liveProject: "https://salut3.vercel.app/",
   },
