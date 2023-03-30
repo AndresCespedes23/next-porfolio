@@ -4,7 +4,7 @@ import styles from "../../styles/header.module.css";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.rocket}>👨‍🚀</div>
+      <div className={styles.rocket}>🌟</div>
       <nav>
         <ul>
           <Link className={styles.navLinks} href="/">

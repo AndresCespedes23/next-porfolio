@@ -34,7 +34,7 @@ export default function Home() {
               src={profile}
               alt="andres-cespedes"
             />
-            <div className={styles.emoji}>🚀</div>
+            <div className={styles.emoji}>☀️</div>
             <p>
               🔨🎨 I enjoy solving complex problems and craft astonishing apps.
             </p>
