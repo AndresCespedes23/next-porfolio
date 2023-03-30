@@ -1,6 +1,24 @@
 /* eslint-disable import/no-anonymous-default-export */
 const projects = [
   {
+    logo: "https://i.imgur.com/6fBFEhH.png",
+    title: "Salute",
+    image: "https://i.imgur.com/y6v1CJV.png",
+    techStack: [
+      {
+        title: "Next.JS",
+        url: "https://i.imgur.com/peWO5yr.png",
+      },
+      {
+        title: "Firebase",
+        url: "https://i.imgur.com/1AC0Maq.png",
+      },
+    ],
+    body: "This is a twitter-clone oriented to the healthcare system. You can do basic functions like: login with yout Google Account, see the timeline, post a tweet, post a tweet with an image (for the moment, you can only drag one image per tweet). ",
+    sourceCode: "https://github.com/AndresCespedes23/salute",
+    liveProject: "https://salut3.vercel.app/",
+  },
+  {
     logo: "https://i.imgur.com/naXRqr5.png",
     title: "Bennu",
     image: "https://i.imgur.com/PCfPUCO.png",
