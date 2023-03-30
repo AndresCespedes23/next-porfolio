@@ -26,7 +26,7 @@ export default function Home() {
             <div className={styles.homeTitles}>
               <h1 className={styles.homeTitle}>👋 Hi, I'm Andrés Céspedes.</h1>
               <h2 className={styles.homeSubtitle}>
-                👨‍💻 A fullstack software developer from Argentina.
+                👨‍💻 A software developer from Argentina.
               </h2>
             </div>
             <Image
@@ -34,7 +34,7 @@ export default function Home() {
               src={profile}
               alt="andres-cespedes"
             />
-            <div className={styles.emoji}>☀️</div>
+            <div className={styles.emoji}>🌟</div>
             <p>
               🔨🎨 I enjoy solving complex problems and craft astonishing apps.
             </p>
