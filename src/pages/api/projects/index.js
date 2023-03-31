@@ -1,9 +1,9 @@
 /* eslint-disable import/no-anonymous-default-export */
 const projects = [
   {
-    logo: "https://i.imgur.com/6fBFEhH.png",
+    logo: "https://i.imgur.com/WlSP7xN.png",
     title: "Salute",
-    image: "https://i.imgur.com/y6v1CJV.png",
+    image: "https://i.imgur.com/QFordqF.png",
     techStack: [
       {
         title: "Next.JS",
