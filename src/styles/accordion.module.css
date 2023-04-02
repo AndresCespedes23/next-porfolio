@@ -53,13 +53,13 @@
     font-weight: bold;
   }
   .accordionBody {
-    margin: 0rem 1.5rem 4rem 1.5rem;
+    margin: 0rem 3rem 4rem 3rem;
     text-align: left;
     font-size: 1.7rem;
     padding: 1rem;
     background:  #a88b2b;
-    border-bottom:0;
-    border-radius: 1%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
   }
 
   .btns {
