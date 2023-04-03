@@ -34,7 +34,7 @@ export default function Home() {
               src={profile}
               alt="andres-cespedes"
             />
-            <p>
+            <p className={styles.description}>
               🔨🎨 I enjoy solving complex problems and craft astonishing apps.
             </p>
           </div>
