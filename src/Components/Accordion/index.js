@@ -19,7 +19,10 @@ export default function Accordion({
   };
   return (
     <div className={styles.accordion}>
-      <div onClick={() => handleAccordion()} className={styles.accordionHeader}>
+      <div
+        onClick={() => handleAccordion()}
+        className={isOpen ? styles.accordionHeaderOpen : styles.accordionHeader}
+      >
         <img alt="logo" src={logo} className={styles.projectLogo} />
         <div className={styles.accordionIndicator}>{isOpen ? "-" : "+"}</div>
       </div>

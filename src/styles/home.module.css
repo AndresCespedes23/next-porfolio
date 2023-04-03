@@ -41,20 +41,19 @@
     font-size: 2.5rem;
 }
 .presentation p {
-    margin: 1rem;
     padding: 1rem;
     font-size: 1.8rem;
 }
 @media only screen and (min-width: 992px) {
     .presentation {
-        margin: 3rem;
+        padding: 3rem;
     }
     .homeTitle, .homeSubtitle{
-        margin: 0.5rem;
+        padding: 0.5rem;
         font-size: 3.5rem;
     }
       .presentation p {
-        margin: 0rem 2rem;
+        padding: 0rem 2rem;
         font-size: 3rem;
     }
         .contact {
