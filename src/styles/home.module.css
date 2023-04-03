@@ -27,7 +27,7 @@
     flex-direction: column;
 }
 .homeTitle, .homeSubtitle{
-    padding: 1rem;
+    padding: 1.5rem 0;
     font-weight: 400;
     font-size: 1.8rem;
 }
@@ -37,11 +37,8 @@
     border: 5px solid #D4AF37;
     border-radius: 70%;
 }
-.emoji {
-    font-size: 2.5rem;
-}
 .presentation p {
-    padding: 1rem;
+    padding: 1rem 0;
     font-size: 1.8rem;
 }
 @media only screen and (min-width: 992px) {
@@ -49,7 +46,7 @@
         padding: 3rem;
     }
     .homeTitle, .homeSubtitle{
-        padding: 0.5rem;
+        padding: 2rem;
         font-size: 3.5rem;
     }
       .presentation p {
