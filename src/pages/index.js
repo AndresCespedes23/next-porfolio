@@ -35,7 +35,7 @@ export default function Home() {
               alt="andres-cespedes"
             />
             <p className={styles.description}>
-              🔨🎨 I enjoy solving complex problems and craft astonishing apps.
+              I enjoy solving complex problems and craft astonishing apps.
             </p>
           </div>
           <SocialMedia />
