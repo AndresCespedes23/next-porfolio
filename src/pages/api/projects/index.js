@@ -3,7 +3,7 @@ const projects = [
   {
     logo: "https://i.imgur.com/WlSP7xN.png",
     title: "Salute",
-    image: "https://i.imgur.com/QFordqF.png",
+    image: "https://i.imgur.com/NSE50g8.png",
     techStack: [
       {
         title: "Next.JS",
