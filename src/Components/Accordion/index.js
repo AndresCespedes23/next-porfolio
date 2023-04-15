@@ -30,7 +30,13 @@ export default function Accordion({
         <div className={styles.accordionBody}>
           <div>
             <h2>Preview:</h2>
-            <img alt="project" className={styles.accordionImage} src={image} />
+            <a href={liveProject} target="_blank" rel="noreferrer">
+              <img
+                alt="project"
+                className={styles.accordionImage}
+                src={image}
+              />
+            </a>
           </div>
           <div className={styles.tech}>
             <h3 className={styles.techTitle}>Tech:</h3>
@@ -44,28 +50,8 @@ export default function Accordion({
               />
             ))}
           </div>
-          <h4 className={styles.projectDescription}>Project Description:</h4>
-          {body}
-          <div className={styles.btns}>
-            <div className={styles.btn}>
-              <a href={sourceCode} target="_blank" rel="noreferrer">
-                <Image
-                  className={styles.projectsLinks}
-                  alt="github"
-                  src={github}
-                />
-              </a>
-            </div>
-            <div className={styles.btn}>
-              <a href={liveProject} target="_blank" rel="noreferrer">
-                <Image
-                  className={styles.projectsLinks}
-                  alt="live project"
-                  src={share}
-                />
-              </a>
-            </div>
-          </div>
+          <h4 className={styles.project}>Project Description:</h4>
+          <div className={styles.projectDescription}>{body}</div>
         </div>
       )}
     </div>
