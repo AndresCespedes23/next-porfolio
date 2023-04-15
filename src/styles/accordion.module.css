@@ -15,7 +15,7 @@
     border-radius: 9999px;
   }
   .accordionHeader:hover {
-    background-color: #FFE55C;
+    opacity: .7;
   }
   .accordionHeaderOpen {
     display: flex;
@@ -28,7 +28,7 @@
     border-radius: 50px 50px 0 0;
   }
   .accordionHeaderOpen:hover {
-    background-color: #FFE55C;
+    background: #FFE55C;
   }
   .accordionTitle {
     font-weight: bold;
@@ -45,6 +45,9 @@
     border: 1px solid black;
     border-radius: 1%;
   }
+  .accordionImage:hover {
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.479);
+  }
   .accordionIndicator {
     font-size: 3rem;
   }
@@ -60,10 +63,13 @@
     padding-right: 1vw;
     height: 4rem;
   }
-  .projectDescription {
+  .project {
     padding: 2rem 0rem;
     font-size: larger;
     font-weight: bold;
+  }
+  .projectDescription {
+    padding-bottom: 5vh;
   }
   .accordionBody {
     margin-bottom: 1rem;
@@ -73,21 +79,6 @@
     background:  #a88b2b;
     border-radius: 0 0 50px 50px;
   }
-
-  .btns {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-  }
-.projectsLinks {
-  padding: 1rem;
-  cursor: pointer;
-  height: 64px;
-  width: 64px;
-}
-.projectsLinks:hover {
-  opacity: .7;
-}
 
 @media only screen and (min-width: 992px) {
     .accordionTitle {
