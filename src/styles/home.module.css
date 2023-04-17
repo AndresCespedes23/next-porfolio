@@ -26,10 +26,12 @@
     align-items: center;
     flex-direction: column;
 }
+.homeTitle {
+    font-size: 1.8rem;
+}
 .homeTitle, .homeSubtitle{
     padding: 3vh 0;
     font-weight: 400;
-    font-size: 1.8rem;
 }
 .profile {
     height: 256px;
@@ -37,9 +39,14 @@
     border: 5px solid #6497b1;
     border-radius: 70%;
 }
+.emoji {
+    font-size: 2.5rem;
+}
 .description {
     padding-top: 5vh;
-    font-size: 1.8rem;
+}
+.homeSubtitle, .description {
+    font-size: 1.7rem;
 }
 @media only screen and (min-width: 992px) {
     .presentation {

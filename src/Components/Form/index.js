@@ -4,7 +4,7 @@ export default function Form() {
   return (
     <section>
       <div className={styles.contactMe}>
-        <h2 className={styles.title}>💬 Contact me!</h2>
+        <h2 className={styles.title}>💬 Stay in touch!</h2>
         <form
           className={styles.form}
           action="https://formsubmit.co/andres.pablo.cespedes@gmail.com"
@@ -38,7 +38,7 @@ export default function Form() {
             />
           </div>
           <div className={styles.info}>
-            <label className={styles.inputTitle}>Please, send a message!</label>
+            <label className={styles.inputTitle}>Message</label>
             <textarea
               className={styles.textarea}
               name="message"
