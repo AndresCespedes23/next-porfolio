@@ -4,10 +4,11 @@
 
 @media only screen and (min-width: 992px) {
     .footer {
+        padding: 1rem 0rem;
         display:flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        background-color: #D4AF37;
+        background-color: #0855b1;
         color: #000000;
         width: 100%
     }

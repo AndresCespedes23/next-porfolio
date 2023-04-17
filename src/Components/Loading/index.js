@@ -13,7 +13,7 @@ export default function Spinner() {
             ariaLabel="progress-bar-loading"
             wrapperStyle={{}}
             wrapperClass="progress-bar-wrapper"
-            borderColor="#D4AF37"
+            borderColor="#0855b1"
             barColor="#FFF"
           />
         </div>

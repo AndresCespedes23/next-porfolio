@@ -1,17 +1,14 @@
 .header {
+    padding: 1rem 0rem;
     display: none;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #D4AF37;
+    background-color: #0855b1;
     width: 100%;
     z-index: 1;
 }
-.rocket {
-    margin: 1rem;
-    font-size: 3rem;
-}
 .navLinks {
-    margin: 0vw 3vw 0vw 3vw;
+    padding: 0rem 2rem;
     font-size: 2rem;
     color: #000000;
     text-decoration: none;
@@ -22,8 +19,5 @@
 @media only screen and (min-width: 992px) {
     .header {
         display: flex;
-    }
-    .logo {
-        height: 64px;
     }
 }

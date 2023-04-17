@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background: #D4AF37;
+    background: #0855b1;
     cursor: pointer;
     border:0;
     border-radius: 9999px;
@@ -22,13 +22,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background: #D4AF37;
+    background: #0855b1;
     cursor: pointer;
     border:0;
     border-radius: 50px 50px 0 0;
   }
   .accordionHeaderOpen:hover {
-    background: #FFE55C;
+    background: #4fa5d8;
   }
   .accordionTitle {
     font-weight: bold;
@@ -76,7 +76,7 @@
     text-align: left;
     font-size: 1.7rem;
     padding: 1rem;
-    background:  #a88b2b;
+    background:  #0855b1;
     border-radius: 0 0 50px 50px;
   }
 
