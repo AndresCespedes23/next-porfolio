@@ -19,22 +19,18 @@ const projects = [
     liveProject: "https://salut3.vercel.app/",
   },
   {
-    logo: "https://i.imgur.com/naXRqr5.png",
-    title: "Bennu",
-    image: "https://i.imgur.com/PCfPUCO.png",
+    logo: "https://i.imgur.com/y2z0129.png",
+    title: "Crypto AD",
+    image: "https://i.imgur.com/Yv4KwJU.png",
     techStack: [
       {
-        title: "react",
-        url: "https://i.imgur.com/Dl60sSZ.png",
-      },
-      {
-        title: "styled components",
-        url: "https://i.imgur.com/smCjVxD.png",
+        title: "Next.JS",
+        url: "https://i.imgur.com/peWO5yr.png",
       },
     ],
-    body: "This is a landing page for a startup company. They wanted to lunch an NFT colecction of the World cup in Qatar 2022. It was built with React and Styled Components. It was built with a simple design that was easy to understand and use.",
-    sourceCode: "https://github.com/AndresCespedes23/bennu-app",
-    liveProject: "https://bennu-app.vercel.app/",
+    body: `This is an app that tracks the most recents prices of the top #10 cryptocurrencies (for example: Bitcoin, ETH, etc).`,
+    sourceCode: "https://github.com/AndresCespedes23/crypto-tracker",
+    liveProject: "https://cryptoad.vercel.app/",
   },
   {
     logo: "https://i.imgur.com/eTKZVix.jpeg",
@@ -51,18 +47,22 @@ const projects = [
     liveProject: "https://www.equilibr.ar/",
   },
   {
-    logo: "https://i.imgur.com/EBTfe3U.png",
-    title: "Crypto Tracker",
-    image: "https://i.imgur.com/37Xgb0f.png",
+    logo: "https://i.imgur.com/naXRqr5.png",
+    title: "Bennu",
+    image: "https://i.imgur.com/PCfPUCO.png",
     techStack: [
       {
         title: "react",
         url: "https://i.imgur.com/Dl60sSZ.png",
       },
+      {
+        title: "styled components",
+        url: "https://i.imgur.com/smCjVxD.png",
+      },
     ],
-    body: `This is an app that tracks the most recents prices of the #10 cryptocurrencies (for example: Bitcoin, ETH, etc). You can view the currencies in US dollars or ARG pesos.`,
-    sourceCode: "https://github.com/AndresCespedes23/crypto-currency-tracker",
-    liveProject: "https://crypto-currency-tracker-gray.vercel.app/",
+    body: "This is a landing page for a startup company. They wanted to lunch an NFT colecction of the World cup in Qatar 2022. It was built with React and Styled Components. It was built with a simple design that was easy to understand and use.",
+    sourceCode: "https://github.com/AndresCespedes23/bennu-app",
+    liveProject: "https://bennu-app.vercel.app/",
   },
 ];
 
