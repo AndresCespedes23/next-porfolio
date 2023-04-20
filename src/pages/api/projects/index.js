@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 const projects = [
   {
-    logo: "https://i.imgur.com/WlSP7xN.png",
+    logo: "https://i.imgur.com/pLuyBTl.png",
     title: "Salute",
     image: "https://i.imgur.com/NSE50g8.png",
     techStack: [
@@ -19,7 +19,7 @@ const projects = [
     liveProject: "https://salut3.vercel.app/",
   },
   {
-    logo: "https://i.imgur.com/y2z0129.png",
+    logo: "https://i.imgur.com/zuCp4Fw.png",
     title: "Crypto AD",
     image: "https://i.imgur.com/Yv4KwJU.png",
     techStack: [

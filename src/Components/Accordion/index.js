@@ -29,7 +29,7 @@ export default function Accordion({
       {isOpen && (
         <div className={styles.accordionBody}>
           <div>
-            <h2>Preview:</h2>
+            <h2 className={styles.liveProjectTitle}>🔗 Link:</h2>
             <a href={liveProject} target="_blank" rel="noreferrer">
               <img
                 alt="project"
