@@ -12,9 +12,10 @@
         color: #000000;
         width: 100%
     }
-    .logo {
-        margin: 0.5rem;
-        height: 32px;
+    .sun {
+        padding: 0 1rem;
+        height: 40px;
+        width: 40px;
     }
     .copyright {
         font-size: 1.5rem;
