@@ -42,11 +42,11 @@
   }
   .accordionImage {
     height: 9rem;
-    border: 1px solid black;
-    border-radius: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    border-radius: 9px;
   }
   .accordionImage:hover {
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.479);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.479);
   }
   .accordionIndicator {
     font-size: 3rem;
