@@ -8,8 +8,11 @@ import Head from "next/head";
 import Image from "next/image";
 import profile from "../../public/images/pro1.jpeg";
 import styles from "../styles/home.module.css";
+import { ThreeDots } from "react-loader-spinner";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [isLoading, setIsLoading] = useState(true);
   return (
     <>
       <Head>
@@ -29,10 +32,23 @@ export default function Home() {
                 A software developer from Argentina.
               </h2>
             </div>
+            {isLoading && (
+              <ThreeDots
+                height="80"
+                width="80"
+                radius="9"
+                color="#FFF"
+                ariaLabel="three-dots-loading"
+                wrapperStyle={{}}
+                wrapperClassName=""
+                visible={true}
+              />
+            )}
             <Image
               className={styles.profile}
               src={profile}
               alt="andres-cespedes"
+              onLoad={() => setIsLoading(false)}
             />
             <div className={styles.emoji}>👨‍💻 </div>
             <p className={styles.description}>

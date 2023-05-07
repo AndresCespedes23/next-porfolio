@@ -42,7 +42,6 @@
   }
   .accordionImage {
     height: 9rem;
-    border: 1px solid rgba(0, 0, 0, 0.479);
     border-radius: 9px;
   }
   .accordionImage:hover {
