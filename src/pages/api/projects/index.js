@@ -21,7 +21,7 @@ const projects = [
   {
     logo: "https://i.imgur.com/zuCp4Fw.png",
     title: "Crypto AD",
-    image: "https://i.imgur.com/Yv4KwJU.png",
+    image: "https://i.imgur.com/nnI9R5u.png",
     techStack: [
       {
         title: "Next.JS",
